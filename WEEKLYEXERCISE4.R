@@ -1,11 +1,11 @@
 
-# (a) 1992年运动员数最多的国家
+# (a) 
 delegation_1992 <- olympics %>%
   filter(year == 1992) %>%
   select(country, athletes) %>%
   arrange(desc(athletes))
 
-# (b) 5个国家的金牌随时间变化
+# (b)
 selected_countries <- c("United States", "France", "Germany", "Russia", "China")
 
 ggplot(
