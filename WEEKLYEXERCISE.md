@@ -1,5 +1,6 @@
 ---
 title: "WEEKLYEXERCISE"
-output: html_document
 ---
+
+#What is civic technology, and how can Smart Cities benefit from it?
 
